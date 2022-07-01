@@ -1,11 +1,11 @@
 interface IUserService {
-    users: number
-    getUsersInDatabase(): number
+    users: number;
+    getUsersInDatabase(): number;
 }
 
 class UserSerice implements IUserService {
-    users: number
+    users: number;
     getUsersInDatabase(): number {
-        throw new Error("Method not implemented.")
+        throw new Error('Method not implemented.');
     }
 }
