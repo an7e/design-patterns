@@ -1,0 +1,22 @@
+{
+  "name": "design-patterns",
+  "version": "1.0.0",
+  "description": "Design Patterns implemented in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/an7e/design-patterns.git"
+  },
+  "author": "an7e",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/an7e/design-patterns/issues"
+  },
+  "homepage": "https://github.com/an7e/design-patterns#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
