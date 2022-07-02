@@ -6,4 +6,7 @@ Design Patterns implemented in TypeScript
 
 ## Creational patterns
 
+* Decorator Function
+* Decorator Class
+
 ## Structural patterns

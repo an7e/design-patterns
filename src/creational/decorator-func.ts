@@ -1,9 +1,9 @@
-interface IUserService {
+export interface IUserService {
     users: number;
     getUsersInDatabase(): number;
 }
 
-class UserSerice implements IUserService {
+export class UserSerice implements IUserService {
     users = 1000;
 
     getUsersInDatabase(): number {
@@ -11,12 +11,12 @@ class UserSerice implements IUserService {
     }
 }
 
-function nullUser(obj: IUserService) {
+export function nullUser(obj: IUserService) {
     obj.users = 0;
     return obj;
 }
 
-function logUsers(obj: IUserService) {
+export function logUsers(obj: IUserService) {
     console.log('Users: ' + obj.users);
     return obj;
 }
@@ -24,3 +24,4 @@ function logUsers(obj: IUserService) {
 console.log(new UserSerice().getUsersInDatabase());
 console.log(nullUser(new UserSerice()).getUsersInDatabase());
 console.log(logUsers(nullUser(new UserSerice())).getUsersInDatabase());
+console.log(nullUser(logUsers(new UserSerice())).getUsersInDatabase());
