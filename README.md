@@ -8,5 +8,7 @@ Design Patterns implemented in TypeScript
 
 * Decorator Function
 * Decorator Class
+* Decorator Factory
+* Decorator Method
 
 ## Structural patterns
