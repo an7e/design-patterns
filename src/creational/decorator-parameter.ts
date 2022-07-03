@@ -21,3 +21,4 @@ export function Positive() {
 }
 
 const userSerice = new UserSerice();
+console.log(userSerice);
