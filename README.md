@@ -11,5 +11,6 @@ Design Patterns implemented in TypeScript
 * Decorator Factory
 * Decorator Method
 * Decorator Property
+* Decorator Accessor
 
 ## Structural patterns
