@@ -15,5 +15,6 @@ Design Patterns implemented in TypeScript
 * Decorator Metadata
 * Factory Method
 * Singleton
+* Prototype
 
 ## Structural patterns
