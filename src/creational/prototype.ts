@@ -16,8 +16,8 @@ export class UserHistory implements Prototype<UserHistory> {
     }
 }
 
-const user = new UserHistory('user@github.com', 'User');
+const user = new UserHistory('user@example.com', 'User');
 const user2 = user.clone();
-user2.email = 'user2@github.com';
+user2.email = 'user2@example.com';
 console.log(user);
 console.log(user2);

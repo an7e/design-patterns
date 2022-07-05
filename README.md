@@ -16,5 +16,6 @@ Design Patterns implemented in TypeScript
 * Factory Method
 * Singleton
 * Prototype
+* Builder
 
 ## Structural patterns
