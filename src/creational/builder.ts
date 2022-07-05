@@ -12,7 +12,7 @@ export interface IImageConversion extends IResolution {
     format: ImageFormat;
 }
 
-class ImageBuilder {
+export class ImageBuilder {
     private formats: ImageFormat[] = [];
     private resolutions: IResolution[] = [];
 

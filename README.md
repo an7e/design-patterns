@@ -6,6 +6,13 @@ Design Patterns implemented in TypeScript
 
 ## Creational patterns
 
+* Factory Method
+* Singleton
+* Prototype
+* Builder
+
+## Structural patterns
+
 * Decorator Function
 * Decorator Class
 * Decorator Factory
@@ -13,9 +20,4 @@ Design Patterns implemented in TypeScript
 * Decorator Property
 * Decorator Accessor
 * Decorator Metadata
-* Factory Method
-* Singleton
-* Prototype
-* Builder
-
-## Structural patterns
+* Bridge
