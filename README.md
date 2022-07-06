@@ -22,3 +22,4 @@ Design Patterns implemented in TypeScript
 * Decorator Metadata
 * Bridge
 * Facade
+* Adapter
