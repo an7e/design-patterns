@@ -24,3 +24,4 @@ Design Patterns implemented in TypeScript
 * Facade
 * Adapter
 * Proxy
+* Composite
