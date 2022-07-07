@@ -23,3 +23,4 @@ Design Patterns implemented in TypeScript
 * Bridge
 * Facade
 * Adapter
+* Proxy
