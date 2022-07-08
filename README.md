@@ -3,6 +3,8 @@
 Design Patterns implemented in TypeScript
 
 ## Behavioral patterns
+* Chain Of Command
+* Mediator
 
 ## Creational patterns
 

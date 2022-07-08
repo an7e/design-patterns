@@ -31,7 +31,7 @@ export class AuthMiddleware extends AbstractMiddleware {
 
 export class ValidateMiddleware extends AbstractMiddleware {
     override handle(request: any) {
-        console.log('AuthMiddleware');
+        console.log('ValidateMiddleware');
         if (request.body) {
             return super.handle(request);
         }
@@ -51,4 +51,4 @@ const validate = new ValidateMiddleware();
 const auth = new AuthMiddleware();
 auth.next(validate).next(controller);
 
-console.log(auth.handle({ userId: 1 }));
+console.log(auth.handle({ userId: 1, body: 'ok' }));
