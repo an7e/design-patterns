@@ -7,6 +7,7 @@ Design Patterns implemented in TypeScript
 * Command
 * Mediator
 * State
+* Strategy
 
 ## Creational patterns
 
