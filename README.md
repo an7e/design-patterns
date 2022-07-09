@@ -6,6 +6,7 @@ Design Patterns implemented in TypeScript
 * Chain Of Command
 * Command
 * Mediator
+* State
 
 ## Creational patterns
 
@@ -23,8 +24,9 @@ Design Patterns implemented in TypeScript
 * Decorator Class
 * Decorator Factory
 * Decorator Function
-* Decorator Method
 * Decorator Metadata
+* Decorator Method
+* Decorator Parameter
 * Decorator Property
 * Facade
 * Proxy
