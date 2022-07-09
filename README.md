@@ -9,6 +9,7 @@ Design Patterns implemented in TypeScript
 * Mediator
 * State
 * Strategy
+* Template Method
 
 ## Creational patterns
 
