@@ -5,6 +5,7 @@ Design Patterns implemented in TypeScript
 ## Behavioral patterns
 * Chain Of Command
 * Command
+* Iterator
 * Mediator
 * State
 * Strategy
