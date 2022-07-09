@@ -7,6 +7,7 @@ Design Patterns implemented in TypeScript
 * Command
 * Iterator
 * Mediator
+* Observer
 * State
 * Strategy
 * Template Method
