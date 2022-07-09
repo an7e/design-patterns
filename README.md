@@ -4,26 +4,27 @@ Design Patterns implemented in TypeScript
 
 ## Behavioral patterns
 * Chain Of Command
+* Command
 * Mediator
 
 ## Creational patterns
 
-* Factory Method
-* Singleton
-* Prototype
 * Builder
+* Factory Method
+* Prototype
+* Singleton
 
 ## Structural patterns
 
-* Decorator Function
+* Adapter
+* Bridge
+* Composite
+* Decorator Accessor
 * Decorator Class
 * Decorator Factory
+* Decorator Function
 * Decorator Method
-* Decorator Property
-* Decorator Accessor
 * Decorator Metadata
-* Bridge
+* Decorator Property
 * Facade
-* Adapter
 * Proxy
-* Composite
